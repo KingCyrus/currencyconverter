@@ -1,0 +1,120 @@
+
+body{
+    background-color: #FAFAD2;
+}
+
+#form_login {
+   text-align: center;
+   vertical-align: middle;
+   margin-top: 85px;
+
+}
+
+#con_form{
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+#boxes{
+    margin: 7px;
+}
+
+
+input[type=text] {
+    box-sizing: border-box;
+    border: 2px solid #483D8B;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 5px 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+h1{
+    padding-top: auto;
+}
+.button {
+    background-color: #483D8B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 32px;
+    font-size: 12px;
+    height: 40px;
+}
+
+select{
+    margin: 2px 2px;
+    width: 70px;
+    height: 40px;
+    padding: 10px 32px;
+}
+
+fieldset{
+    background-color: white;
+    display: inline-block;
+    width: 50%;
+    border: 1px solid #483D8B;
+    border-radius: 10px;
+    width: 400px;
+    margin:auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    height: 300px;
+    padding-top: 100px;
+}
+
+legend{
+  display: block;
+  margin-left: 3px;
+  padding-top: 2px;
+  text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.75);
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:.9em;
+  color: #483D8B;
+}
+
+@media screen and (max-width: 450px){
+    body{
+        background-color: #AFEEEE;
+    }
+    #form_login{
+        display: flex;
+    }
+    fieldset{
+        background-color: #AFEEEE;
+        box-shadow: none;
+        border: none;
+        width: 100%;
+        padding-top: 10px;
+        height: auto;
+    }
+
+    legend{
+        box-shadow: none;
+        font-size: 15px;
+    }
+    input[type=text]{
+        font-size: 20px;
+        width: 96%;
+        box-shadow: none;
+        height: 50px;
+    }
+    select{
+        font-size: 20px;
+        width: 100%;
+        background-color: #F5FFFA;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
